@@ -1,16 +1,67 @@
-# React + Vite
+# Cartify 🛒
+React + Redux Toolkit Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About
+Cartify is a simple shopping cart application built using **React and Redux Toolkit**.
 
-Currently, two official plugins are available:
+The project focuses on understanding **global state management**, cart logic, quantity updates, and total price calculation using Redux Toolkit. It simulates a real-world e-commerce cart flow in a clean and beginner-friendly way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
+- Add products to cart
+- Increase / decrease item quantity
+- Remove items from cart
+- Clear entire cart
+- Automatic total price calculation
+- Global state management with Redux Toolkit
+- Clean UI using Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Project Structure / Components
+- **Cart Component**: Displays cart items and controls
+- **Cart Slice**: Handles cart logic (add, remove, increase, decrease, clear)
+- **Redux Store**: Centralized state management
+- **Reusable UI logic** with React hooks (`useSelector`, `useDispatch`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Screenshots
+
+### Products Page
+![Products Page](./public/screenshots/products.png)
+
+### Cart Page
+![Cart Page](./public/screenshots/cart.png)
+
+---
+
+## Technologies Used
+- React
+- Redux Toolkit
+- Tailwind CSS
+- JavaScript (ES6+)
+- Vite
+
+---
+
+## Learning Outcome
+- Understanding Redux Toolkit workflow
+- Managing global state in React
+- Writing clean reducer logic
+- Using `useSelector` and `useDispatch`
+- Structuring a real-world frontend project
+- Preparing a project for portfolio & GitHub
+
+---
+
+## Live Preview
+https://yourusername.github.io/cartify/
+
+---
+
+## Notes
+- This project focuses on logic and state management
+- Routing and authentication are intentionally excluded
+- Designed as a learning-focused Redux project
