@@ -57,7 +57,7 @@ The project focuses on understanding **global state management**, cart logic, qu
 ---
 
 ## Live Preview
-https://yourusername.github.io/cartify/
+https://codewithosama03.github.io/Cartify/
 
 ---
 
